@@ -43,7 +43,7 @@
             </div>
             <div class="form-group row mb-3">
               <label for="inputPassword" class="col-sm-2 col-form-label"
-                >Location</label
+                >Password</label
               >
               <div class="col-sm-5">
                 <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" name="password" value="{{ old('password') }}" placeholder="Enter User Password" />

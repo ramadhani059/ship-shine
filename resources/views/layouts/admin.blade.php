@@ -57,7 +57,7 @@
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
                     @if ( Auth::user()->img_user_encrypted != null)
-                        <img src="{{ asset('storage/image/user/'.Auth::user()->img_user_encrypted) }}" class="rounded-circle">
+                        <img src="{{ asset('storage/user/'.Auth::user()->img_user_encrypted) }}" class="rounded-circle">
                     @else
                         <img alt="Image placeholder" src="{{ asset('img/profile/akun_kosong.png') }}">
                     @endif
@@ -209,7 +209,7 @@
                 <div class="media align-items-center">
                   <span class="avatar avatar-sm rounded-circle">
                     @if ( Auth::user()->img_user_encrypted != null)
-                        <img src="{{ asset('storage/image/user/'.Auth::user()->img_user_encrypted) }}" class="rounded-circle">
+                        <img src="{{ asset('storage/user/'.Auth::user()->img_user_encrypted) }}" class="rounded-circle">
                     @else
                         <img alt="Image placeholder" src="{{ asset('img/profile/akun_kosong.png') }}">
                     @endif
